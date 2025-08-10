@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>AutoDrive.uz</h1>
+        <h2>Hayotingizni osonlashtiradigan avtomobillar!</h2>
+        <p><em>Biz orqali eng sifatli mashinalarni topasiz.</em></p>
+        <p><strong>Har kuni yangilanadigan narxlar, <br> yangi modellardan xabardor bo'ling!</strong></p>
+        <hr>
+    </header>
+    
+    <main>
+        <section>
+            <p>
+                Avtomobillar, ehtiyot qismlar <br>
+                va xizmatlar yagona platformada!
+            </p>
+            <img src="./download.jfif" width="600" height="300" alt="Mashina rasmi">
+            
+        </section>
+
+        <section>
+            <h2>Eng ko'p sotiladigon avtomobillar ro'yxati</h2>
+            <ol>
+                <li><b>Chevrolet Cobalt</b></li>
+                <li><b>KIA K5</b></li>
+                <li><b>Hyundai Tucson</b></li>
+            </ol>
+        </section>
+<section>
+    <h2>Batafsil ma'lumot:</h2>
+    <ul>
+        <li><mark>Cobalt</mark>-<i>Iqtisodiy, arzon va qulay shahar avtomobili.</i>  <br> <br>
+            <q>Yangi narx: $12,000</q> — <del>$13,000</del><br>
+            <b>Xarajat:</b> CO<sub>2</sub> - 150 g/km | Oktan: 91 
+        </li> <br>
+        <li>
+            <mark>KIA K5</mark> - <u>Elegant va zamonaviy dizayn.</u>
+            <br>
+            <q>Yangi narx: $25,000</q> — <del>$27,500</del>
+            <br>
+            <b>Yoqilg'i sarfi:</b> 7.1 l/100km | SO<sub>2</sub> chiqindisi: 90 g/m<sup>3</sup>
+        </li>
+        <br>
+        <li>
+            <mark>Hyundai Tucson</mark> - <i>Krossoverlar orasida yetakchi model.</i>
+            <br>
+            <q>Yangi narx: $32,000</q> — <del>$35,000</del>
+            <br>
+            <b>Xavfsizlik reytingi:</b> 5/5 | NO<sub>2</sub>: 110 g/m<sup>3</sup>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Mashina qidiruvi</h2>
+    <form action="">
+        <input name="q" type="search" placeholder="Mashina nomini kiriting....">
+        <button type="submit">Qidirish</button>
+    </form>
+    
+</section>
+<section>
+    <h2>Mashina buyurtma shakli</h2>
+    <form action="https://echo.htmlacademy.ru" target="_blank">
+        <fieldset>
+            <legend>Ma'lumotlaringiz</legend>
+            
+            <label for="name-input">Ism:</label>
+            <input name="name" type="text" id="name-input" placeholder="Ismingiz" required><br><br>
+            
+            <label for="email-input">Email:</label>
+            <input type="email" name="email" id="email-input" placeholder="email@example.com" required><br><br>
+            
+            <label for="phone-input">Telefon:</label>
+            <input type="tel" id="phone-input" name="phone" placeholder="+998901234567"><br><br>
+            <label for="age-input">Yoshingiz:</label> 
+            <input id="age-input" name="age" type="number" min="18" max="65"  placeholder="Yoshingizni kiriting" required> <br><br>
+            <label>Jinsingiz:</label><br>
+            <input id="female-input" name="gender" type="radio" value="Ayol">
+            <label for="female-input">Ayol</label> 
+            <input id="male-input" name="gender" type="radio" value="Erkak">
+            <label for="male-input">Erkak</label> <br> <br>
+            <label for="url-input">Web sayt manzilingiz:</label> <br>
+            <input id="url-input" name="url" type="url" placeholder="https://example.com" > <br><br>
+            <label for="password-input">Parol:</label> <br>
+            <input name="password" id="password-input" type="password" placeholder="Parolingizni kiriiting" required> <br><br>
+            
+            <label for="date-input">Buyurtma sanasi:</label>
+            <input type="date" id="date-input" name="date"><br><br>
+            
+            <label for="car-type-input">Mashina turi:</label>
+            <select id="car-type-input" name="car-type">
+                <optgroup label="Yengil avtomobillar">
+                    <option value="sedan" selected>Sedan</option>
+                    <option value="suv" disabled>SUV</option>
+                    <option value="Hatchback">Hatchback</option>
+                    <option value="Coupe">Coupe</option>
+                    <option value="Liftback" disabled>Liftback</option>
+                </optgroup>
+                <optgroup label="Yuk mashinalari">
+                    <option value="Pickup">Pickup</option>
+                    <option value="Minibus">Minibus</option>
+                    <option value="van" disabled>Van</option>
+                    <option value="Box Truck" disabled>Box Truck</option>
+                    <option value="Tow Truck">Tow Truck	</option>
+                    
+                </optgroup>
+            </select><br><br>
+            
+            <label for="comment-input">Qo'shimcha izoh:</label><br>
+            <textarea id="comment-input" name="comment" placeholder="Izohlaringizni kiriting..."></textarea><br><br>
+            
+            
+            <button type="submit">Yuborish</button>
+            <button type="reset">Tozalash</button>
+        </fieldset>
+    </form>
+</section>
+
+<section>
+    <h3>Mashinalar taqqoslash jadvali</h3>
+    
+    <table border="1">
+        <caption>Turli mashinalarning narx, tezlik va yoqilg'i sarfi solishtiruv jadvali</caption>
+        <thead>
+            <tr>
+            <th>Mashina</th>
+            <th>Narxi ($)</th>
+            <th>Maksimal tezligi (km/h)</th>
+            <th>Yoqilg'i sarfi (l/100km)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Chevrolet Cobalt</td>
+            <td>12,000</td>
+            <td>170</td>
+            <td>6.5</td>
+        </tr>
+        <tr>
+            <td>KIA K5</td>
+            <td>25,000</td>
+            <td>210</td>
+            <td>7.1</td>
+        </tr>
+        <tr>
+            <td>Hyundai Tucson</td>
+            <td>32,000</td>
+            <td>195</td>
+            <td>8.2</td>
+        </tr>
+    </tbody>
+</table>
+</section>
+<section>
+    <h2>Bizning manzil:</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193357.7821206499!2d72.17955989361155!3d40.779279651898506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bc901d6b13d4ef%3A0xfc45bcaa7973dfac!2z0JDQvdC00LjQttCw0L0sINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1670654374569!5m2!1sru!2s" width="600" height="300" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" >Kechirasiz,  sizning brzuzeringiz ushbu xaritani ocha olmaydi.</iframe>
+</section>
+<aside>
+    <h4>Bog'lanish</h4>
+    <form action="https://echo.htmlacademy.ru" target="_blank">
+        <label for="website">Saytingiz manzili:</label><br>
+        <input type="url" id="website" name="website" placeholder="https://example.com"><br><br>
+        
+        <label for="tel">Telefon raqamingiz:</label><br>
+        <input type="tel" id="tel" name="tel" placeholder="+998901234567"><br><br>
+        
+        <p>Ijtimoiy tarmoqlar:</p>
+        <a href="https://t.me/autoserviceuz" target="_blank">Telegram</a> <br>
+        <a href="https://www.facebook.com/autoserviceuz" target="_blank">Facebook</a> <br>
+        <a href="https://www.instagram.com/autoserviceuz" target="_blank">Instagram</a> <br>
+        <a href="https://twitter.com/autoserviceuz" target="_blank">Twitter</a>
+    </form>
+</aside>
+</main>
+
+<footer>
+    <p><strong>Eslatma:</strong> Saytdagi barcha narxlar <del>o'zgaruvchan</del> bo'lib, faqat <u>axborot</u> uchun mo'ljallangan.</p>
+    <p><q>Har bir avtomobil ekologik mezonlarga javob beradi.</q></p>
+</footer>
+</body>
+</html>
